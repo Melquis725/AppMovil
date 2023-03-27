@@ -9,26 +9,3 @@ body {
 header {
     @apply bg-gray-800;
 }
-
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.one{
-    
-    width: 90%;
-    height: 35vh;
-    background-color: skyblue;
-}
-
-.two{
-    position: absolute;
-    top: 14em;
-    width: 80%;
-    height: 50vh;
-    background-color: lightgray;
-}
