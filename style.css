@@ -9,3 +9,26 @@ body {
 header {
     @apply bg-gray-800;
 }
+
+.fila-1 {
+    @apply grid grid-cols-6 justify-items-stretch gap-4 text-center text-black leading-10 mb-4 mx-auto max-w-lg px-10;
+  }
+  .fila {
+    @apply grid grid-cols-7 gap-4 text-center leading-10 mb-4 mx-auto max-w-lg;
+  }
+  
+  .asiento {
+    @apply cursor-pointer w-10 h-10 bg-gray-200 text-black rounded-md;
+  }
+  
+  .reservado {
+    @apply w-10 h-10 bg-blue-500 text-white;
+  }
+  
+  .seleccionado {
+    @apply w-10 h-10 bg-red-500 text-white;
+  }
+
+  .eventos {
+    @apply flex flex-col items-center w-1/4 bg-blue-500 hover:bg-blue-400 rounded-md p-2 text-white gap-2;
+  }

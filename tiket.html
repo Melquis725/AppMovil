@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tikets</title>
+</head>
+
+<body class="bg-gray-100">
+
+    <nav class="flex justify-between p-4 text-black">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <p class="lg:text-lg">Tikets comprados</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
+    </nav>
+
+
+    <div class="p-4">
+
+        <div class="flex items-center pl-4 my-2 bg-white">
+            <input id="bordered-radio-1" type="radio" value="" name="bordered-radio"
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="bordered-radio-1"
+                class="w-full py-4 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Zomboy World Tour</label>
+                <p>18-Jun</p>
+        </div>
+        <div class="flex items-center pl-4 my-2 bg-white">
+            <input checked id="bordered-radio-2" type="radio" value="" name="bordered-radio"
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+            <label for="bordered-radio-2"
+                class="w-full py-4 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked state</label>
+        </div>
+
+    </div>
+
+    <div id="barra" class="mt-16"></div>
+
+    <script src="/main.js" type="module"></script>
+    <script src="/barra.js"></script>
+</body>
+
+</html>

@@ -4,6 +4,11 @@ module.exports = {
   "./node_modules/flowbite/**/*.js" 
 ],
   theme: {
+    colors:{
+      'gris' : '#efefef',
+      'verde' : '#12b1bc',
+
+    },
     extend: {},
   },
   plugins: [
